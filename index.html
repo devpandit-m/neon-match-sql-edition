@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NEON MATCH | SQL EDITION</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="overlay" class="overlay">
+        <button onclick="startGame()">INITIALIZE GAME</button>
+    </div>
+    
+    <div class="game-wrapper">
+        <div class="header">
+            <div class="box">SCORE: <span id="score">0</span></div>
+            <div class="box">TIME: <span id="timer">45</span>s</div>
+        </div>
+        <div id="grid" class="grid"></div>
+        <div class="leaderboard-section">
+            <h3>GLOBAL LEADERBOARD</h3>
+            <ul id="leaderboard-list"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
